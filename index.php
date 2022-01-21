@@ -43,7 +43,7 @@ function myFunction() {
   popup.classList.toggle("show");
 }
 function myFunctionn() {
-  var popup = document.getElementById("myPopup");
+  var popup = document.getElementById("myPopupp");
   popup.classList.toggle("show");
 }
 </script>
@@ -103,7 +103,7 @@ function myFunctionn() {
             </p>
             <div class="popup" onclick="myFunctionn()">
                     Contact Us
-                    <span class="popuptext" id="myPopup">
+                    <span class="popuptext" id="myPopupp">
                         PHONE: <a href="tel: 254717150025"><font color="red">0717150025/</font></a>
                         <a href="tel: 254727287028"><font color="red">0727287028</a><br>
                         EMAIL: <a href="mailto:bandabtailimited@gmail.com"><font color="red">bandabtailimited@gmail.com </font></a><br>
