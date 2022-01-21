@@ -42,6 +42,10 @@ function myFunction() {
   var popup = document.getElementById("myPopup");
   popup.classList.toggle("show");
 }
+function myFunctionn() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
 </script>
 </head>
 <body>
@@ -97,7 +101,7 @@ function myFunction() {
                service<br/><br/> Our main aim is to provide quality General 
                supplies in agriculture,schools,offices,hospitals and many other.
             </p>
-            <div class="popup" onclick="myFunction()">
+            <div class="popup" onclick="myFunctionn()">
                     Contact Us
                     <span class="popuptext" id="myPopup">
                         PHONE: <a href="tel: 254717150025"><font color="red">0717150025/</font></a>
