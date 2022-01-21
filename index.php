@@ -78,7 +78,7 @@ function myFunctionn() {
                 <h1>Limited General Supplies company</h1>
                 <div id="intro-tag-btn">
                     <span>Quality and reliable service at best prices.</span>
-                    <a href="" class="brand-btn">Let's Talk</a>
+                    <a href="tel: 254717150025" class="brand-btn">Let's Talk</a>
                 </div>
             </div>
         </div>
