@@ -61,13 +61,21 @@ function myFunctionn() {
                 <span></span>
             </div>
             <div class="mainMenu">
-                <a href=""><span>Technology</span></a>
-                <a href=""><span>Service</span></a>
+                <a href=""><span>Supplies</span></a>
+                <a href=""><span>Services</span></a>
                 <a href=""><span>Portfolio</span></a>
                 <a href=""><span>About Us</span></a>
-                <a href=""><span>Career</span></a>
+                <a href=""><span>Terms </span></a>
                 <a href=""><span>Blog</span></a>
-                <a href="">Work With Us</a>
+                <div class="popup" onclick="myFunctionn()">
+                    Work With Us
+                    <span class="popuptext" id="myPopupp">
+                        PHONE: <a href="tel: 254717150025"><font color="red">0717150025/</font></a>
+                        <a href="tel: 254727287028"><font color="red">0727287028</a><br>
+                        EMAIL: <a href="mailto:bandabtailimited@gmail.com"><font color="red">bandabtailimited@gmail.com </font></a><br>
+                        
+                    </span>
+                    </div>
             </div class="mainMenu">
         </nav>
     </header>
