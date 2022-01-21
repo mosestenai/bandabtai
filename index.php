@@ -67,15 +67,7 @@ function myFunctionn() {
                 <a href=""><span>About Us</span></a>
                 <a href=""><span>Terms </span></a>
                 <a href=""><span>Blog</span></a>
-                <div class="popup" onclick="myFunctionn()">
-                    Work With Us
-                    <span class="popuptext" id="myPopupp">
-                        PHONE: <a href="tel: 254717150025"><font color="red">0717150025/</font></a>
-                        <a href="tel: 254727287028"><font color="red">0727287028</a><br>
-                        EMAIL: <a href="mailto:bandabtailimited@gmail.com"><font color="red">bandabtailimited@gmail.com </font></a><br>
-                        
-                    </span>
-                    </div>
+                <a href="tel: 254717150025">Work With Us</a>
             </div class="mainMenu">
         </nav>
     </header>
