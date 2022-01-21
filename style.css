@@ -7,10 +7,11 @@
         background-color: #ef4b42;
         border:2px solid #ef4b42;
         color: white;
-        padding: 10px;
+        padding: 10px 40px;
         border-radius: 30px;
         font-size: 17px;
         cursor: pointer;
+        text-align: center;
         font-family: roboto;
         position: relative;
         display: inline-block;
@@ -35,7 +36,7 @@
     position: absolute;
     z-index: 1;
     bottom: 125%;
-    left: 50%;
+    left: 25%;
     margin-left: -80px;
   }
   

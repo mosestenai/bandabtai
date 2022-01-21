@@ -97,9 +97,15 @@ function myFunction() {
                service<br/><br/> Our main aim is to provide quality General 
                supplies in agriculture,schools,offices,hospitals and many other.
             </p>
-            <div class="btn-footer">
-                <a href="" class="brand-btn">Contact Us</a>
-            </div>
+            <div class="popup" onclick="myFunction()">
+                    Contact Us
+                    <span class="popuptext" id="myPopup">
+                        PHONE: <a href="tel: 254717150025"><font color="red">0717150025/</font></a>
+                        <a href="tel: 254727287028"><font color="red">0727287028</a><br>
+                        EMAIL: <a href="mailto:bandabtailimited@gmail.com"><font color="red">bandabtailimited@gmail.com </font></a><br>
+                        
+                    </span>
+                    </div>
         </div>
     </section>
 
