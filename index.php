@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="icon" type="image/jpg" href="assets/logo1.png" />
+<link rel="icon" type="image/jpg" href="assets/logo4.png" />
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link href="http://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 	<title> Bandabtai</title>
-	<link rel="shortcut icon" type="image/jpg" href="assets/logo1.png" />
+	<link rel="shortcut icon" type="image/jpg" href="assets/logo4.png" />
     <link href="https://fonts.googleapis.com/css?family=Lato|Nanum+Gothic:700|Raleway&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
