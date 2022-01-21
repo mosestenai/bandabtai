@@ -174,7 +174,8 @@ function myFunction() {
                     <div class="popup" onclick="myFunction()">
                     Contact Us
                     <span class="popuptext" id="myPopup">
-                        PHONE: <a href="tel: 254717150025"><font color="red">0717150025/0727287028</font></a><br>
+                        PHONE: <a href="tel: 254717150025"><font color="red">0717150025/</font></a>
+                        <a href="tel: 254727287028"><font color="red">0727287028</a><br>
                         EMAIL: <a href="mailto:bandabtailimited@gmail.com"><font color="red">bandabtailimited@gmail.com </font></a><br>
                         
                     </span>
