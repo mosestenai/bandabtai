@@ -4,8 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Nanum+Gothic:700|Raleway&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" rel="stylesheet">
     <title>Supplies</title>
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+        /*Designed by CodingTuting.Com*/
+    $(document).ready(function(){
+        
+        $(window).scroll(function(){
+            if($(this).scrollTop() >= 500) {
+                $("#gotop").fadeIn();
+          
+                $("#top-btn").click(function(){
+                    $(window).scrollTop(0);
+                });
+             }
+             else {
+                 $("#gotop").fadeOut();
+             }    
+        });
+    });
+    
+    function menuBtnFunction(menuBtn) {
+        menuBtn.classList.toggle("active");
+        $(".mainMenu").toggleClass("active");
+        $(".mainMenu a").toggleClass("active");
+    }
+    </script>
 </head>
 <body>
     <section id="services">
