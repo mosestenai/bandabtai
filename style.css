@@ -1203,6 +1203,14 @@ footer {
             left: 0;
             right: 0;
         }
+        #intro-tag-btnn {
+            position: fixed;
+            display: block !important;
+            bottom: 60px;
+            width: 100%;
+            left: 0;
+            right: 0;
+        }
 
     .col-3 {
         display: block;
