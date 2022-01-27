@@ -58,11 +58,12 @@
   
   .text-wrapper{
     width: 50%;
-    color: white;
+    
   }
   
   .text {
     margin-bottom: 1em;
+    color: white;
   }
   
   .btn-wrapper {
