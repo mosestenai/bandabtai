@@ -1,8 +1,9 @@
-<?xml version=”1.0” encoding=”UTF-8”?>
-<urlset xmlns=”http://www.sitemaps.org/schemas/sitemap/0.9” xmlns:xhtml=”http:www.w3.org/1999/xhtml”>
-   <url>
-      <loc>https://bandabtai.co.ke/index.html</loc>
-      <lastmod>2022-1-01</lastmod>
-      <changefreq>weekly</changefreq>
-      <priority>0.9</priority>
-   </url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://https://bandabtai.co.ke/index.html</loc>
+		<lastmod>2022-01-1T16:12:20+03:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+	</url>
+</urlset>
