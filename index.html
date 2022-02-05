@@ -1,58 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<link rel="icon" type="image/jpg" href="assets/logo4.png" />
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	
-	<title> Bandabtai</title>
-	<link rel="shortcut icon" type="image/jpg" href="assets/logo4.png" />
-  <link rel="stylesheet" href="style.css">
-	<meta name="description" content="In need of any item or items,worry no more,at bandabtai we supply anything
-     you're in need of ,from school stationery to building materials and all other" />
-	<meta name="keywords" content="bandabati,supplies" />
-	<meta http-equiv="content-language" content="en-uk">
-    <script type="text/javascript">
- 
-     $(document).ready(function(){
-    
-    $(window).scroll(function(){
-        if($(this).scrollTop() >= 500) {
-            $("#gotop").fadeIn();
-      
-            $("#top-btn").click(function(){
-                $(window).scrollTop(0);
-            });
-         }
-         else {
-             $("#gotop").fadeOut();
-         }    
-    });
-});
 
-function menuBtnFunction(menuBtn) {
-    menuBtn.classList.toggle("active");
-    $(".mainMenu").toggleClass("active");
-    $(".mainMenu a").toggleClass("active");
-}
-function myFunction() {
-  var popup = document.getElementById("myPopup");
-  popup.classList.toggle("show");
-}
-function myFunctionn() {
-  var popup = document.getElementById("myPopupp");
-  popup.classList.toggle("show");
-}
-</script>
+<head>
+    <link rel="icon" type="image/jpg" href="assets/logo4.png" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="http://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <title> Bandabtai</title>
+    <link rel="shortcut icon" type="image/jpg" href="assets/logo4.png" />
+    <link href="https://fonts.googleapis.com/css?family=Lato|Nanum+Gothic:700|Raleway&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="In need of any item or items,worry no more,at bandabtai we supply anything
+     you're in need of ,from school stationery to building materials and all other" />
+    <meta name="keywords" content="bandabati,supplies" />
+    <meta http-equiv="content-language" content="en-uk">
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $(window).scroll(function () {
+                if ($(this).scrollTop() >= 500) {
+                    $("#gotop").fadeIn();
+
+                    $("#top-btn").click(function () {
+                        $(window).scrollTop(0);
+                    });
+                }
+                else {
+                    $("#gotop").fadeOut();
+                }
+            });
+        });
+
+        function menuBtnFunction(menuBtn) {
+            menuBtn.classList.toggle("active");
+            $(".mainMenu").toggleClass("active");
+            $(".mainMenu a").toggleClass("active");
+        }
+        function myFunction() {
+            var popup = document.getElementById("myPopup");
+            popup.classList.toggle("show");
+        }
+        function myFunctionn() {
+            var popup = document.getElementById("myPopupp");
+            popup.classList.toggle("show");
+        }
+    </script>
 </head>
+
 <body>
-<header id="topHeader">
+    <header id="topHeader">
         <ul id="topInfo">
             <li>+254 717150025</li>
             <li>bandabtailimited@gmail.com</li>
         </ul>
-        
+
         <nav>
             <span class="logo">Bandabtai</span>
             <div class="menu-btn-3" onclick="menuBtnFunction(this)">
@@ -81,32 +85,39 @@ function myFunctionn() {
         </div>
 
         <div id="development-img">
-            <img src="assets/logo3.png" width="100%" height="50%"/>
+            <img src="assets/logo3.png" width="100%" height="50%" />
         </div>
     </section>
 
     <section id="delivery">
         <h1 class="sec-heading">Delivering Experience Since 2015</h1>
         <div class="col-5 delivery-img">
-          <!--  <img src="https://www.dropbox.com/s/ipx91osglyczpdt/delivery_experience.svg?raw=1" alt="Productivity Delivering Experience" title="Delivering Experience Since 2009"/>-->
+            <img src="https://www.dropbox.com/s/ipx91osglyczpdt/delivery_experience.svg?raw=1"
+                alt="Productivity Delivering Experience" title="Delivering Experience Since 2009" />
         </div>
         <div class="col-7">
             <h2>Accelerating your delivery with bandabtai</h2>
             <p>
-               We supply a range of general supplies that you need 
-               for your businesss.We offer a first class supply 
-               service<br/><br/> Our main aim is to provide quality General 
-               supplies in agriculture,schools,offices,hospitals and many other.
+                We supply a range of general supplies that you need
+                for your businesss.We offer a first class supply
+                service<br /><br /> Our main aim is to provide quality General
+                supplies in agriculture,schools,offices,hospitals and many other.
             </p>
             <div class="popup" onclick="myFunctionn()">
-                    Contact Us
-                    <span class="popuptext" id="myPopupp">
-                        PHONE: <a href="tel: 254717150025"><font color="red">0717150025/</font></a>
-                        <a href="tel: 254727287028"><font color="red">0727287028</a><br>
-                        EMAIL: <a href="mailto:bandabtailimited@gmail.com"><font color="red">bandabtailimited@gmail.com </font></a><br>
-                        
-                    </span>
-                    </div>
+                Contact Us
+                <span class="popuptext" id="myPopupp">
+                    PHONE: <a href="tel: 254717150025">
+                        <font color="red">0717150025/</font>
+                    </a>
+                    <a href="tel: 254727287028">
+                        <font color="red">0727287028
+                    </a><br>
+                    EMAIL: <a href="mailto:bandabtailimited@gmail.com">
+                        <font color="red">bandabtailimited@gmail.com </font>
+                    </a><br>
+
+                </span>
+            </div>
         </div>
     </section>
 
@@ -116,35 +127,35 @@ function myFunctionn() {
             <li>
                 <div>
                     <a href="">
-                    <i class="fas fa-book"></i><span>Stationeries</span>
+                        <i class="fas fa-book"></i><span>Stationeries</span>
                     </a>
                 </div>
             </li>
             <li>
                 <div>
                     <a href="">
-                    <i class="fas fa-tools"></i><span>Building materials</span>
+                        <i class="fas fa-tools"></i><span>Building materials</span>
                     </a>
                 </div>
             </li>
             <li>
                 <div>
                     <a href="">
-                    <i class="fas fa-hamburger"></i></i><span>Food and beverages</span>
+                        <i class="fas fa-hamburger"></i></i><span>Food and beverages</span>
                     </a>
                 </div>
             </li>
             <li>
                 <div>
                     <a href="">
-                    <i class="fas fa-tv"></i><span>Home appliances</span>
+                        <i class="fas fa-tv"></i><span>Home appliances</span>
                     </a>
                 </div>
             </li>
             <li>
                 <div>
                     <a href="">
-                    <i class="fas fa-user-tie"></i><span>Clothes and footware</span>
+                        <i class="fas fa-user-tie"></i><span>Clothes and footware</span>
                     </a>
                 </div>
             </li>
@@ -156,88 +167,102 @@ function myFunctionn() {
                 </div>
             </li>
         </ul>
-        
+
         <div id="service-footer">
             <a href="supplies.html" class="brand-btn">View All Services</a>
         </div>
     </section>
-    
+
     <section id="success-story">
-        <h1 class="sec-heading">Our Success Stories</h1> 
-        
+        <h1 class="sec-heading">Our Success Stories</h1>
+
         <div class="slider">
             <div class="col-6 slide-text">
                 <div>
                     <h2>Mission</h2>
                     <p>
-                    To meet and deliver quality products and services to our customers
-                     and ensuring customer satisfaction
+                        To meet and deliver quality products and services to our customers
+                        and ensuring customer satisfaction
                     </p>
                     <h2>Vission</h2>
                     <p>
-                   To offer quality products and services to our customers at the Best 
-                   prices possible.Commited to be part of our customers success.
+                        To offer quality products and services to our customers at the Best
+                        prices possible.Commited to be part of our customers success.
                     </p>
                     <div class="popup" onclick="myFunction()">
-                    Contact Us
-                    <span class="popuptext" id="myPopup">
-                        PHONE: <a href="tel: 254717150025"><font color="red">0717150025/</font></a>
-                        <a href="tel: 254727287028"><font color="red">0727287028</a><br>
-                        EMAIL: <a href="mailto:bandabtailimited@gmail.com"><font color="red">bandabtailimited@gmail.com </font></a><br>
-                        
-                    </span>
+                        Contact Us
+                        <span class="popuptext" id="myPopup">
+                            PHONE: <a href="tel: 254717150025">
+                                <font color="red">0717150025/</font>
+                            </a>
+                            <a href="tel: 254727287028">
+                                <font color="red">0727287028
+                            </a><br>
+                            EMAIL: <a href="mailto:bandabtailimited@gmail.com">
+                                <font color="red">bandabtailimited@gmail.com </font>
+                            </a><br>
+
+                        </span>
                     </div>
                 </div>
             </div>
             <div class="col-6 slide-img">
-              <!--  <img src="https://www.dropbox.com/s/ipx91osglyczpdt/delivery_experience.svg?raw=1" alt="World Travel App Development" title="World Travel Protection"/>-->
+                <img src="https://www.dropbox.com/s/ipx91osglyczpdt/delivery_experience.svg?raw=1"
+                    alt="World Travel App Development" title="World Travel Protection" />
             </div>
         </div>
     </section>
     <section id="highlights">
-        <h1 class="sec-heading">Company Highlights</h1> 
-    
+        <h1 class="sec-heading">Company Highlights</h1>
+
         <div class="slider">
             <div class="col-6 slide-text">
                 <div>
                     <h2>Core values</h2>
                     <p>
-                      INTEGRITY:  To be honest and transparent to our customers.<br><BR>
-                      PROMISE TO CUSTOMERS: Creating a great customer experience begins with 
-                      staying true to the words we speak and the bonds we make. <br><br>
-                      QUALITY: Companies are judged by the craftsmanship of their 
-                      products and services, so we maintain the highest standards possible. 
-                </p>
+                        INTEGRITY: To be honest and transparent to our customers.<br><BR>
+                        PROMISE TO CUSTOMERS: Creating a great customer experience begins with
+                        staying true to the words we speak and the bonds we make. <br><br>
+                        QUALITY: Companies are judged by the craftsmanship of their
+                        products and services, so we maintain the highest standards possible.
+                    </p>
                     <a href="" class="brand-btn">See More</a>
                 </div>
             </div>
             <div class="col-6 slide-img">
-                <img src="assets/mission.jpeg" width="75%" height="50%" alt="Team Work in Eldoret" title="Company Team Work"/>
-            </div> 
+                <img src="assets/mission.jpeg" width="75%" height="50%" alt="Team Work in Eldoret"
+                    title="Company Team Work" />
+            </div>
         </div>
     </section>
-  
-    <section id="partners" class="brand-logos">
-        <h1 class="sec-heading">Our Partners</h1> 
-        <div>
-            <!--
-            <a><img src="https://www.dropbox.com/s/mk5ca04seizpf8l/aws.svg?raw=1" alt="Work with AWS" title="Our Work"></a>
-            <a><img src="https://www.dropbox.com/s/r9utt5nj9k9m1t8/Dell.png?raw=1" alt="Dell" title="Work with Dell"></a>
-            <a><img src="https://www.dropbox.com/s/umw9g0zgm1ecfvn/Intel.png?raw=1" alt="intel" title="Work with intell"></a>
-            <a><img src="https://www.dropbox.com/s/x0hrha2dosey99z/ibm.png?raw=1" alt="IBM" title="Work with IBM"></a>
-            <a><img src="https://www.dropbox.com/s/ekzu1wcki6jziay/Microsoft.svg?raw=1" alt="Microsoft" title="Work with Microsoft"></a>
-            <a><img src="https://www.dropbox.com/s/lvl5cp14i3v0wgi/Nasscom.png?raw=1" alt="Nasscom" title="Work with Nasscom"></a>
-            <a><img src="https://www.dropbox.com/s/h66k9jaaknxaum4/Samsung.png?raw=1" alt="Samsung" title="Work with Samsung"></a>
-            <a><img src="https://www.dropbox.com/s/86cbtf78khj0q9z/Nvidia.png?raw=1" alt="Nvidia" title="Work with Nvidia"></a>            </div>
-            -->
-        </section>
-    
-    <footer>
-       <div>
-            <span class="logo">Bandabtai</span>
-       </div>
 
-       <div class="row">
+    <section id="partners" class="brand-logos">
+        <h1 class="sec-heading">Our Partners</h1>
+        <div>
+            <a><img src="https://www.dropbox.com/s/mk5ca04seizpf8l/aws.svg?raw=1" alt="Work with AWS"
+                    title="Our Work"></a>
+            <a><img src="https://www.dropbox.com/s/r9utt5nj9k9m1t8/Dell.png?raw=1" alt="Dell"
+                    title="Work with Dell"></a>
+            <a><img src="https://www.dropbox.com/s/umw9g0zgm1ecfvn/Intel.png?raw=1" alt="intel"
+                    title="Work with intell"></a>
+            <a><img src="https://www.dropbox.com/s/x0hrha2dosey99z/ibm.png?raw=1" alt="IBM" title="Work with IBM"></a>
+            <a><img src="https://www.dropbox.com/s/ekzu1wcki6jziay/Microsoft.svg?raw=1" alt="Microsoft"
+                    title="Work with Microsoft"></a>
+            <a><img src="https://www.dropbox.com/s/lvl5cp14i3v0wgi/Nasscom.png?raw=1" alt="Nasscom"
+                    title="Work with Nasscom"></a>
+            <a><img src="https://www.dropbox.com/s/h66k9jaaknxaum4/Samsung.png?raw=1" alt="Samsung"
+                    title="Work with Samsung"></a>
+            <a><img src="https://www.dropbox.com/s/86cbtf78khj0q9z/Nvidia.png?raw=1" alt="Nvidia"
+                    title="Work with Nvidia"></a>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <span class="logo">Bandabtai</span>
+        </div>
+
+        <div class="row">
             <div class="col-3">
                 <span class="footer-cat">Solution</span>
                 <ul class="footer-cat-links">
@@ -268,10 +293,10 @@ function myFunctionn() {
             <div class="col-3" id="newsletter">
                 <span class="footer-cat">Stay Connected</span>
                 <form id="subscribe">
-                    <input type="email" id="subscriber-email" placeholder="Enter Email Address"/>
-                    <input type="submit" value="Subscribe" id="btn-scribe"/>
+                    <input type="email" id="subscriber-email" placeholder="Enter Email Address" />
+                    <input type="submit" value="Subscribe" id="btn-scribe" />
                 </form>
-                
+
                 <div class="social-links social-2">
                     <a href=""><i class="fab fa-facebook-f"></i></a>
                     <a href=""><i class="fab fa-twitter"></i></a>
@@ -286,17 +311,17 @@ function myFunctionn() {
                     <ul>
                         <li>
                             <i class="far fa-building"></i>
-                            <div>Eldoret<br/>
-                            kvda plaza,uganda road, Eldoret</div>
+                            <div>Eldoret<br />
+                                kvda plaza,uganda road, Eldoret</div>
                         </li>
                         <li>
                             <i class="fas fa-gopuram"></i>
-                            <div>Eldoret<br/>
-                            kvda plaza,uganda road, Eldoret</div>
+                            <div>Eldoret<br />
+                                kvda plaza,uganda road, Eldoret</div>
                         </li>
                     </ul>
                 </div>
-                
+
             </div>
             <div class="social-links social-1 col-6">
                 <a href=""><i class="fab fa-facebook-f"></i></a>
@@ -306,19 +331,20 @@ function myFunctionn() {
                 <a href=""><i class="fab fa-tumblr"></i></a>
                 <a href=""><i class="fab fa-reddit-alien"></i></a>
             </div>
-       </div>
-       <div id="copyright">
-           &copy; All Rights Reserved 2015-2022
-       </div>
-       <div id="owner">
-           <span>
-               Designed by <a href="https://tenaitech.eazistey.co.ke">TENAITECH</a>
-           </span>
-       </div>
-       <a href="#topHeader" id="gotop">Top</a>
+        </div>
+        <div id="copyright">
+            &copy; All Rights Reserved 2015-2022
+        </div>
+        <div id="owner">
+            <span>
+                Designed by <a href="https://tenaitech.eazistey.co.ke">TENAITECH</a>
+            </span>
+        </div>
+        <a href="#topHeader" id="gotop">Top</a>
     </footer>
 
-   <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 </body>
+
 </html>
