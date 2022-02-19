@@ -62,6 +62,9 @@ section {
         height: 100px;
 
     }
+    .img-wrapper {
+        width: 30%;
+    }
 }
 
 .text-wrapper {
