@@ -58,12 +58,12 @@ section {
 /*Home page styling mobile*/
 @media screen and (max-width: 780px) {
     .img {
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
 
     }
     .img-wrapper {
-        width: 30%;
+        width: 25%;
     }
 }
 
